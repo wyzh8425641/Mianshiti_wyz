@@ -7,6 +7,10 @@ public class mySqrt {
         Scanner in=new Scanner(System.in);
         int x=in.nextInt();
         System.out.println(mySqrt(x));
+        System.out.println(mySqrt(x));
+        System.out.println(mySqrt(x));
+        System.out.println(mySqrt(x));
+
     }
     public static int mySqrt(int x){
         long r=x;
