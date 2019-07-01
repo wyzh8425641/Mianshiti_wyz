@@ -1,10 +1,7 @@
 package com.hashmap;
 
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.Map.Entry;
 
 public class Hashmap {
@@ -12,6 +9,18 @@ public class Hashmap {
     public static void main(String[] args) {
 
         HashMap<String, String> hashMap = new HashMap<String, String>();
+        Set str=new HashSet();
+        String s1="hhh";
+        String s2="888";
+        String s3="hhh";
+        str.add(s1);
+        str.add(s2);
+        str.add(s3);
+        System.out.println(str);
+        s3="ls";
+        str.add(s3);
+        System.out.println(str);
+
         hashMap.put("cn", "中国");
         hashMap.put("jp", "日本");
         hashMap.put("fr", "法国");
