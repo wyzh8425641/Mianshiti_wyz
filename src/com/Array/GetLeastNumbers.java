@@ -1,4 +1,5 @@
 package com.Array;
+//获得数组中最小的K个值
 
 import java.util.ArrayList;
 import java.util.Collections;

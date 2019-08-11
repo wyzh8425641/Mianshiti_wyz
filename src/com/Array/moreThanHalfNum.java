@@ -1,4 +1,5 @@
 package com.Array;
+//输出数组中超过一半的数
 
 import java.util.HashMap;
 import java.util.Map;

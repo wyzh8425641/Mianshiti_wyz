@@ -1,5 +1,5 @@
 package com.list;
-
+//输入一个数字，输出对应匹配括号的数量
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

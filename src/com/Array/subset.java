@@ -1,5 +1,5 @@
 package com.Array;
-
+//一个不重复元素数组的所有的子数组
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

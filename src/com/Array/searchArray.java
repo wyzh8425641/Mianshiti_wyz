@@ -1,4 +1,5 @@
 package com.Array;
+//搜索数组找对应的数字
 
 import java.util.HashMap;
 import java.util.Scanner;

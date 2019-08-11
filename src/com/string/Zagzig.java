@@ -9,6 +9,7 @@ public class Zagzig {
         Scanner s=new Scanner(System.in);
         num=s.nextInt();
         ss=s.nextLine();
+
         //String result=convert(ss,num);String.valueOf(str)
         System.out.println(String.valueOf(convert(ss,num)));
     }

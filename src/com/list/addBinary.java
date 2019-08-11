@@ -1,5 +1,5 @@
 package com.list;
-
+//二进制加法
 import java.util.Scanner;
 
 public class addBinary {
@@ -18,8 +18,11 @@ public class addBinary {
                 sum+=b.charAt(j--)-'0';
             if (i>=0)
                 sum+=a.charAt(i--)-'0';
-            s.append(sum%2);
-            add=sum/2;
+//            s.append(sum%2);
+//            add=sum/2;
+            s.append(sum%10);
+            add=sum/10;
+
 
         }
         if(add!=0) s.append(add);

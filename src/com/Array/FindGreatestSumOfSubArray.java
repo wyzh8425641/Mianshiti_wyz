@@ -1,4 +1,5 @@
 package com.Array;
+//找到一个数组最大的子数组和
 
 import java.util.Scanner;
 

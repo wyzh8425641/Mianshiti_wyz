@@ -1,5 +1,5 @@
 package com.linklist;
-
+//将两个链表按照从小到大的顺序重新排序
 import java.util.Scanner;
 
 public class RemoveNthFromEnd {

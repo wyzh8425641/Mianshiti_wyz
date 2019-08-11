@@ -1,5 +1,5 @@
 package com.Array;
-
+//找到数组中三个数的和等于0的所有集合
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

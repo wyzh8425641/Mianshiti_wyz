@@ -1,5 +1,5 @@
 package com.Array;
-
+//输出一个数组中三个数的和最接近一个定值的数
 import java.util.Arrays;
 import java.util.Scanner;
 
