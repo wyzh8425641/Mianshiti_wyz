@@ -1,4 +1,4 @@
-package com.matrix;
+package com.Array;
 //输出旋转数组的最小元素
 public class minNumberInRotateArray {
     public static void main(String[] args) {

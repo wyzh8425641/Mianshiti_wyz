@@ -1,5 +1,5 @@
-package com.matrix;
-
+package com.Array;
+//在二维数组中只通过右移和下移判断是否存在目标值
 import java.util.Scanner;
 
 public class findtarget {

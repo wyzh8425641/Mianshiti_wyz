@@ -7,12 +7,13 @@ public class ThreeSumClosest {
     public static void main(String[] args){
         Scanner in=new Scanner(System.in);
         String c=in.nextLine();
-        int target=in.nextInt();
-        String[] a=c.split("\\s+");
+
+        String[] a=c.split("\\s");
         int[] nums=new int[a.length];
         for (int i=0;i<a.length;i++){
             nums[i]=Integer.parseInt(a[i]);
         }
+        int target=in.nextInt();
 
         System.out.println(threeSumClosest(nums,target));
     }
@@ -39,6 +40,10 @@ public class ThreeSumClosest {
                         sum=y;
                     }
                     System.out.println(sum);
+                }
+                else{
+                    p++;
+                    q--;
                 }
             }
         }

@@ -1,5 +1,5 @@
 package com.string;
-
+//输出对应数字的读法
 import java.util.Scanner;
 
 public class countAndSay {

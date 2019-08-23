@@ -18,6 +18,7 @@ public class RemoveNthFromEnd {
           node3.next=node5;
           node2.next=node4;
           Node node=mergeTwoList(node1,node2);
+          System.out.println(node);
           while (node!=null){
               System.out.print(node.data+" ");
               node=node.next;

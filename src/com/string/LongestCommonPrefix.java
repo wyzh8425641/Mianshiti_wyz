@@ -1,5 +1,5 @@
 package com.string;
-
+//返回三个字符串的公共头子串
 import java.util.Scanner;
 
 public class LongestCommonPrefix {

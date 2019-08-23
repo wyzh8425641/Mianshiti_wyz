@@ -1,5 +1,5 @@
-package com.matrix;
-
+package com.Array;
+//输入一个数，输出一个顺时针旋转的数组
 import java.util.Scanner;
 
 public class generateMatrix {

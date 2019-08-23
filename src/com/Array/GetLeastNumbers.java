@@ -1,5 +1,5 @@
 package com.Array;
-//获得数组中最小的K个值
+//获得数组中最小的K个值，通过大顶堆构建
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,9 +22,11 @@ public class GetLeastNumbers {
         if(array==null||array.length==0||k<=0||k>array.length){
             return result;
         }
+        //构建大顶堆
         for (int i=k/2-1;i>=0;i--){
             buildMaxHeapSort(array,i,k);
         }
+        //找到K个最小的值
         for(int j=k;j<array.length;j++){
             if(array[j]<array[0]){
                 swap(array,0,j);
