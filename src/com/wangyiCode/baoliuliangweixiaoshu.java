@@ -9,6 +9,5 @@ public class baoliuliangweixiaoshu {
         double d=sc.nextDouble();
         DecimalFormat df=new DecimalFormat("#.00");
         System.out.println(df.format(d));
-        //System.out.println(String.format("%.2f",d));
     }
 }

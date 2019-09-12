@@ -7,7 +7,6 @@ public class ThreeSumClosest {
     public static void main(String[] args){
         Scanner in=new Scanner(System.in);
         String c=in.nextLine();
-
         String[] a=c.split("\\s");
         int[] nums=new int[a.length];
         for (int i=0;i<a.length;i++){
